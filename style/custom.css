@@ -1,0 +1,23 @@
+.bg-grey{
+  background-color: #aaa;
+}
+
+.border-grey{
+  border-color: red;
+}
+
+.rotation{
+  -webkit-animation: rotation 10s infinite linear;
+}
+.rotation:hover{
+  -webkit-animation: none;
+}
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}
