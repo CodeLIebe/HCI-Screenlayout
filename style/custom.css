@@ -1,22 +1,27 @@
 .bg-grey{
   background-color: #aaa;
 }
-
+.bg-lightgrey{
+  background-color: #e9ecef;
+}
 .border-grey{
   border-color: #ededed!important;
 }
 
-.sticky-offset{
-  top: 9rem;
-}
-.pt-12{
-   padding-top:12rem;
-}
-.min-height{
-  min-height: 45em;
-}
 .tiny{
   font-size: 70%;
+}
+.min-height{
+  min-height: 100rem;
+}
+.overflow-y{
+  max-height: 40rem;
+  overflow-y: auto;
+}
+.display-5{
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.5;
 }
 .rotation{
   -webkit-animation: rotation 10s infinite linear;
