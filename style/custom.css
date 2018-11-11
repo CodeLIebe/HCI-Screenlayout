@@ -4,10 +4,16 @@
 .bg-lightgrey{
   background-color: #e9ecef;
 }
+a{
+  color: #ededed;
+}
+a:hover{
+  text-decoration: none;
+  color: #6c757d;
+}
 .border-grey{
   border-color: #ededed!important;
 }
-
 .tiny{
   font-size: 70%;
 }
