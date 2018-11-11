@@ -24,6 +24,12 @@ a:hover{
   max-height: 40rem;
   overflow-y: auto;
 }
+.overflow-y a{
+  color: #444;
+}
+.overflow-y a:hover{
+  color: #aaa;
+}
 .display-5{
   font-size: 1.5rem;
   font-weight: 300;
