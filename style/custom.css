@@ -3,9 +3,21 @@
 }
 
 .border-grey{
-  border-color: red;
+  border-color: #ededed!important;
 }
 
+.sticky-offset{
+  top: 9rem;
+}
+.pt-12{
+   padding-top:12rem;
+}
+.min-height{
+  min-height: 45em;
+}
+.tiny{
+  font-size: 70%;
+}
 .rotation{
   -webkit-animation: rotation 10s infinite linear;
 }
